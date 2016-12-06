@@ -31,6 +31,7 @@ import android.widget.Toast;
 
 import com.davemorrissey.labs.subscaleview.ImageSource;
 import com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView;
+import com.example.my_library.Test;
 import com.example.ygc.test.view.ContactsListActivity;
 import com.example.ygc.test.view.MyProgressDialog;
 import com.example.ygc.test.adapter.MyAdapter;
@@ -73,6 +74,7 @@ public class MainActivity extends AppCompatActivity implements ViewTreeObserver.
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Log.d(TAG, "onCreate: "+ Test.hello());
         Log.d(TAG, "onCreate: ");
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
