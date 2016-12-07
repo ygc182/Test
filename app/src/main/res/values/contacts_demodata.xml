@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-   <string-array name="contacts_array">
-       <item>Tom  12323131</item>
-       <item>Jam  12999131</item>
-       <item>Lilei  12323131</item>
-       <item>Hanme 1332453131</item>
-   </string-array>
-</resources>
