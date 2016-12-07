@@ -6,10 +6,13 @@ import android.util.Log;
 
 import com.example.my_library.Test;
 
+import org.rocko.bpb.BounceProgressBar;
+
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = MainActivity.class.getSimpleName();
 
+    private BounceProgressBar bpb;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
